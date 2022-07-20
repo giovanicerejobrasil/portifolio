@@ -16,3 +16,51 @@
   box-sizing: border-box;
   font-family: var(--font-padrao);
 }
+
+header img {
+  max-width: 350px;
+  display: block;
+  margin: 30px auto;
+}
+
+main {
+  margin: auto;
+  max-width: 900px;
+  min-width: 350px;
+}
+
+main > section > h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+main > section > h2 {
+  font-size: 2em;
+  background-image: linear-gradient(to right, var(--cor3), transparent);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 15px;
+}
+
+main > section > p {
+  text-align: justify;
+  text-indent: 35px;
+  margin-bottom: 30px;
+}
+
+main > section > ul {
+  list-style: none;
+  columns: 2;
+  margin: 20px auto;
+}
+
+main > section > ul > li {
+  text-align: center;
+}
+
+main > section > ul > li > img {
+  max-width: 300px;
+  padding: 20px;
+}
